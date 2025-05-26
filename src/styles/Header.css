@@ -1,0 +1,164 @@
+/* ========= DESKTOP (default styles) ========= */
+
+.header-container {
+  background-color: #fff;
+  border-bottom: 1px solid #eaeaea;
+  height: auto;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo-text {
+  font-size: 1.5rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+.logo-highlight {
+  color: #50dfdb;
+}
+.logo-plain {
+  color: #1b3568;
+}
+.logo-compact {
+  color: #1f3f80;
+  font-size: 1.4rem;
+}
+
+.search-wrapper {
+  max-width: 500px;
+}
+.search-box {
+    background-color: #fff;
+
+  padding: 4px 10px;
+  border-radius: 8px;
+}
+.search-input {
+  border-radius: 10px;
+  padding: 10px 12px;
+  background-color: #f1f3f5;
+  border: 1px solid #ced4da;
+}
+
+.search-icon-inside {
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #6c757d;
+  font-size: 14px;
+  pointer-events: none;
+}
+
+.search-input:focus {
+  outline: none;
+  box-shadow: none;
+}
+.search-icon {
+  color: #6c757d;
+}
+
+.notification-icon i {
+  font-size: 1.2rem;
+  color: #0c468f;
+}
+
+.avatar-img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.username {
+  font-weight: 500;
+  color: #333;
+  font-size: 0.95rem;
+}
+
+.add-btn {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+
+.toggle-btn {
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+/* ========= MOBILE ONLY ========= */
+@media (max-width: 576px) {
+  .header-container {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .mobile-header-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    gap: 6px;
+    padding-inline: 6px;
+  }
+
+  .toggle-btn {
+    font-size: 1.2rem;
+    background: none;
+    border: none;
+    color: #333;
+    padding: 4px;
+  }
+
+  .logo-text {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #1f3f80;
+  }
+
+  .avatar-img {
+    width: 28px;
+    height: 28px;
+  }
+
+  .username {
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: #333;
+    display: inline;
+  }
+
+  .add-btn {
+    width: 32px;
+    height: 32px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .mobile-search-bar {
+    width: 100%;
+    padding-inline: 8px;
+  }
+
+  .search-wrapper {
+    width: 100%;
+    margin: 4px 0;
+  }
+
+  .search-box {
+    padding: 4px 8px;
+  }
+
+  .search-input {
+    font-size: 0.85rem;
+  }
+}

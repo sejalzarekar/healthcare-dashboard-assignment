@@ -1,0 +1,102 @@
+/* Day and Date Labels */
+.calendar-day-label {
+  font-weight: 500;
+  color: #343a40;
+  font-size: 0.85rem;
+  padding: 4px 0;
+  word-break: keep-all;
+}
+
+.calendar-date-cell {
+  font-size: 0.8rem;
+  padding: 4px 2px;
+}
+
+/* Date Styling */
+.calendar-date {
+  font-weight: 600;
+  margin-bottom: 6px;
+  padding: 6px 0;
+  border-radius: 8px;
+  background-color: transparent;
+  transition: background 0.3s ease;
+}
+
+.calendar-date.selected {
+  background-color: #e0e0f9;
+  color: #2c3e50;
+}
+
+/* Time Tags */
+.calendar-time {
+  font-size: 0.7rem;
+  margin: 2px 2px 4px 2px;
+  background-color: #f0f0f0;
+  border-radius: 12px;
+  padding: 2px 6px;
+  display: inline-block;
+}
+
+.highlighted-time {
+  background-color: #b1b1f9;
+  color: white;
+}
+
+/* Appointment Cards */
+.appointment-card {
+  padding: 12px;
+  border-radius: 16px;
+  font-size: 0.85rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
+}
+
+/* Light Purple Custom Background */
+.bg-light-purple {
+  background-color: #eaeaff;
+}
+
+/* RESPONSIVE FIXES */
+
+/* Max 576px - for mobile screens like iPhone 13 Pro */
+ @media (min-width: 350px)  and (max-width: 576px) {
+  .calendar-view {
+    padding: 0 12px;
+  }
+
+  .calendar-day-label {
+    font-size: 0.7rem;
+  }
+
+  .calendar-date-cell {
+    font-size: 0.7rem;
+    padding: 2px;
+  }
+
+  .calendar-time {
+    font-size: 0.65rem;
+    padding: 2px 4px;
+    display: inline-block;
+  }
+
+  .calendar-grid .col {
+    padding-left: 2px;
+    padding-right: 2px;
+  }
+
+  .appointment-card {
+    font-size: 0.78rem;
+    padding: 10px;
+  }
+
+  .appointment-cards .col-12 {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .calendar-date {
+    font-size: 0.8rem;
+    padding: 4px 0;
+  }
+} 
+
+ 

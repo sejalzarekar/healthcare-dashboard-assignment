@@ -1,0 +1,51 @@
+.activity-card {
+  background-color: #f6f8ff;
+  border-radius: 16px;
+}
+
+/* Shared bar style */
+.bar {
+  width: 5px;
+  border-radius: 10px;
+}
+
+/* Bar colors */
+.cyan-bar {
+  background-color: #0dcaf0;
+}
+
+.purple-bar {
+  background-color: #6f42c1;
+}
+
+.gray-bar {
+  background-color: #adb5bd;
+}
+
+/* Positioning */
+.bar-group {
+  min-height: 80px;
+}
+
+/* Heights based on image layout */
+.bar-1-1 { height: 60px; }               /* Monday - cyan */
+
+.bar-2-1 { height: 40px; }               /* Tuesday - cyan */
+.bar-2-2 { height: 60px; }               /* Tuesday - purple */
+.bar-2-3 { height: 25px; }               /* Tuesday - gray */
+
+.bar-3-1 { height: 55px; }               /* Wednesday - purple */
+.bar-3-2 { height: 35px; }               /* Wednesday - gray */
+
+.bar-4-1 { height: 60px; }               /* Thursday - gray */
+.bar-4-2 { height: 35px; }               /* Thursday - cyan */
+
+.bar-5-1 { height: 70px; }               /* Friday - cyan */
+.bar-5-2 { height: 55px; }               /* Friday - purple */
+.bar-5-3 { height: 45px; }               /* Friday - gray */
+
+.bar-6-1 { height: 50px; }               /* Saturday - gray */
+.bar-6-2 { height: 40px; }               /* Saturday - cyan */
+
+.bar-7-1 { height: 60px; }               /* Sunday - cyan */
+.bar-7-2 { height: 45px; }               /* Sunday - purple */
