@@ -11,7 +11,7 @@ const healthData = [
     title: "Teeth",
     date: "Date: 26 Oct 2021",
     progress: 70,
-    color: "success",
+    color: "primary",
   },
   {
     icon: "🦴",

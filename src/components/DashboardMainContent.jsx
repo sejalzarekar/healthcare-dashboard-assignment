@@ -1,3 +1,4 @@
+import React from "react";
 import "../styles/DashboardMainContent.css";
 import AnatomySection from "./AnatomySection";
 import HealthStatusCards from "./HealthStatusCards";

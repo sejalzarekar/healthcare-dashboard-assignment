@@ -14,6 +14,8 @@ const Statistics = () => <h2>Statistics Page</h2>;
 const Tests = () => <h2>Tests Page</h2>;
 const Chat = () => <h2>Chat Page</h2>;
 const Support = () => <h2>Support Page</h2>;
+const Setting = () => <h2>Setting Page</h2>;
+
 
 const App = () => {
   const [isSidebarOpen, setSidebarOpen] = useState(false);
@@ -42,6 +44,8 @@ const App = () => {
               <Route path="/tests" element={<Tests />} />
               <Route path="/chat" element={<Chat />} />
               <Route path="/support" element={<Support />} />
+              <Route path="/setting" element={<Setting />} />
+
           
             </Routes>
           </div>

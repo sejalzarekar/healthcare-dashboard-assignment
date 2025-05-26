@@ -1,4 +1,3 @@
-// UpcomingSchedule.jsx
 import React from "react";
 import { upcomingAppointments } from "../data/appointments.js";
 import SimpleAppointmentCard from "./SimpleAppointmentCard";
@@ -26,4 +25,4 @@ const UpcomingSchedule = () => {
   );
 };
 
-export default UpcomingSchedule; // ✅ This line was missing!
+export default UpcomingSchedule; 

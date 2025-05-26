@@ -14,3 +14,4 @@ export const toolsLinks = [
 
 export const bottomLink = { label: "Settings", icon: "fa fa-cog", path: "/setting" };
 
+

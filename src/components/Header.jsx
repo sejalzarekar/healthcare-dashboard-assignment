@@ -1,16 +1,17 @@
+import React from "react";
 import "../styles/Header.css";
 
 const Header = ({ onToggleSidebar }) => {
   return (
     <header className="header-container d-flex flex-column">
-      {/* Mobile Header Row - only visible on mobile */}
-      <div className="mobile-header-top d-flex align-items-center justify-content-between w-100 d-md-none px-2 py-1">
+       {/* Mobile Header Row */}
+      <div className="mt-3  mobile-header-top d-flex align-items-center justify-content-between w-100 d-md-none px-2 py-1">
         {/* Left: Toggle + Logo */}
        <div className="d-flex align-items-center toggle-logo-group">
   <button className="btn toggle-btn me-2" onClick={onToggleSidebar}>
     <i className="fa fa-bars"></i>
   </button>
-  <div className="logo-text logo-compact fw-bold mb-0">HC</div>
+  <div className="logo-text logo-compact fw-bold mb-0 ms-5">HC</div>
 </div>
 
 
@@ -25,7 +26,7 @@ const Header = ({ onToggleSidebar }) => {
               alt="avatar"
               className="avatar-img me-1"
             />
-            <span className="username">John</span>
+            <span className="username">Sejal</span>
           </div>
           <button className="btn btn-primary rounded-circle add-btn">
             <i className="fa fa-plus"></i>
@@ -83,7 +84,7 @@ const Header = ({ onToggleSidebar }) => {
               alt="avatar"
               className="avatar-img me-1"
             />
-            <span className="username d-none d-md-inline">John</span>
+            <span className="username d-none d-md-inline">Sejal</span>
           </div>
           <button className="btn btn-primary rounded-circle add-btn">
             <i className="fa fa-plus"></i>
